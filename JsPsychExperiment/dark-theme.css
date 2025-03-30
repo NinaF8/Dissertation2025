@@ -1,0 +1,44 @@
+/* General body styles for the dark theme */
+body {
+    background-color: #121212; /* Dark background */
+    color: #ffffff; /* Light text */
+    font-family: Arial, sans-serif; /* Clean font */
+    margin: 0; /* Remove default browser margins */
+    padding: 0;
+  }
+  
+  /* Style jsPsych buttons */
+  .jspsych-btn {
+    background-color: #333333; /* Dark button background */
+    color: #ffffff; /* Light button text */
+    border: 1px solid #ffffff; /* White border */
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .jspsych-btn:hover {
+    background-color: #555555; /* Slightly lighter background on hover */
+  }
+  
+  /* Style for progress bars */
+  #progress-bar {
+    background-color: #ffffff; /* White progress bar color */
+    height: 5px;
+  }
+  
+  /* Style for text elements inside jsPsych trials */
+  .jspsych-html-button-response-stimulus,
+  .jspsych-html-keyboard-response-stimulus {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff; /* Light text */
+  }
+  
+  /* Images inside the experiment */
+  img {
+    border: 3px solid #ffffff; /* White border for images */
+    border-radius: 5px;
+  }
